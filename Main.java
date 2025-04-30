@@ -56,8 +56,7 @@ public class Main {
         System.out.println(testName + ":");
         System.out.println(data);
         int result = data.countIncreasingCols();
-        System.out.println("Increasing columns: " + result + 
-                         " (Expected: " + expected + ")\n");
+        System.out.println("Increasing columns: " + result + " (Expected: " + expected + ")\n");
     }
 
     private static void verifyRepopulateValues(Data data) 

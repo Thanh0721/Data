@@ -24,7 +24,8 @@ public class Data {
             for (int col = 0; col < grid[row].length; col++) 
             {
                 int val;
-                do {
+                do 
+                {
                     val = (int)(Math.random() * MAX) + 1;
                 } while (val % 10 != 0 || val % 100 == 0);
                 grid[row][col] = val;
